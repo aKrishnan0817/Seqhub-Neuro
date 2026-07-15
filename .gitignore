@@ -1,0 +1,28 @@
+# macOS / editor cruft
+.DS_Store
+__MACOSX
+*.swp
+
+# Python
+__pycache__
+*.py[cod]
+.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local student config (they copy config.example.py -> config.py)
+config.py
+.env
+
+# Datasets and results live outside the repo (Google Drive / local disk)
+brainiak_datasets/
+brainiak_results/
+brainiak/
+tutorials/logs/*
+tutorials/__pycache__
+
+# Exceptions
+!tutorials/logs/.gitkeep
