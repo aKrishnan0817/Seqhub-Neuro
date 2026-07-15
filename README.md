@@ -185,6 +185,21 @@ Which notebook uses which dataset:
 
 ---
 
+## Solutions
+
+Solutions are available on a seperate branch.
+
+```bash
+git checkout solutions
+```
+
+and to return to the tutorials
+
+```bash
+git checkout main
+```
+
+
 ## Troubleshooting
 
 - BrainIAK docs & original tutorials: https://brainiak.org/tutorials
